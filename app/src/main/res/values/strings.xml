@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CSCE546-Project5</string>
+
+    <string-array name="comic_names">
+        <item>Bruce Wayne</item>
+        <item>Alfred Pennyworth</item>
+        <item>Dick Grayson</item>
+        <item>Cassandra Cain</item>
+    </string-array>
+
+    <string-array name="comic_descriptions">
+        <item>The vigilante known as Batman.</item>
+        <item>Batman\'s trusted butler.</item>
+        <item>The first Robin</item>
+        <item>The second Batgirl.</item>
+    </string-array>
+
+</resources>
