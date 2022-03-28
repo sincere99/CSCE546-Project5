@@ -8,9 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class MyAdapter(
-    private val bios: List<Character>,
-    private val listener: OnItemClickListener
-    ) :
+    private val bios: List<Character>, private val listener: OnItemClickListener) :
     RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -30,7 +28,8 @@ class MyAdapter(
         holder.ivImage.setImageResource(bio.image)
     }
 
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener{
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
+        View.OnClickListener {
         val tvName: TextView = itemView.findViewById(R.id.tv_Name)
         val tvAlias: TextView = itemView.findViewById(R.id.tv_Alias)
         val ivImage: ImageView = itemView.findViewById(R.id.iv_Image)
@@ -44,7 +43,8 @@ class MyAdapter(
             listener.onItemClick(position)
         }
     }
-    interface  OnItemClickListener {
+
+    interface OnItemClickListener {
         fun onItemClick(position: Int)
     }
 }
