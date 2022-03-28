@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="comic_images">
+        <item>@drawable/brucewayne</item>
+        <item>@drawable/alfredpennyworth</item>
+        <item>@drawable/dickgrayson</item>
+        <item>@drawable/barbaragordon</item>
+        <item>@drawable/jasontodd</item>
+        <item>@drawable/timdrake</item>
+        <item>@drawable/stephaniebrown</item>
+        <item>@drawable/helenabertinelli</item>
+        <item>@drawable/cassandracain</item>
+        <item>@drawable/katekane</item>
+        <item>@drawable/damianwayne</item>
+        <item>@drawable/dukethomas</item>
+    </integer-array>
+
+</resources>
