@@ -5,14 +5,91 @@
         <item>Bruce Wayne</item>
         <item>Alfred Pennyworth</item>
         <item>Dick Grayson</item>
+        <item>Barbara Gordon</item>
+        <item>Jason Todd</item>
+        <item>Tim Drake</item>
+        <item>Stephanie Brown</item>
         <item>Cassandra Cain</item>
+        <item>Damian Wayne</item>
+        <item>Duke Thomas</item>
+    </string-array>
+
+    <string-array name="comic_alias">
+        <item>Batman</item>
+        <item>Trusted Butler</item>
+        <item>First Robin, later Nightwing</item>
+        <item>First Batgirl, later Oracle</item>
+        <item>Second Robin, later Red Hood</item>
+        <item>Third Robin, later Red Robin</item>
+        <item>Third Batgirl, forth Robin, later Spoiler</item>
+        <item>Second Batgirl, Later Black Bat and Orphan</item>
+        <item>Fifth Robin</item>
+        <item>The Signal</item>
     </string-array>
 
     <string-array name="comic_descriptions">
-        <item>The vigilante known as Batman.</item>
-        <item>Batman\'s trusted butler.</item>
-        <item>The first Robin</item>
-        <item>The second Batgirl.</item>
+        <item>In the name of his murdered parents, Bruce Wayne wages eternal war on the criminals of Gotham City. He is vengeance. He is the night. He is Batman.
+
+One of the most iconic fictional characters in the world, Batman has dedicated his life to an endless crusade, a war on all criminals in the name of his murdered parents, who were taken from him when he was just a child. Since that tragic night, he has trained his body and mind to near physical perfection to be a self-made Super Hero. He\'s developed an arsenal of technology that would put most armies to shame. And he\'s assembled teams of his fellow DC Super Heroes, like the Justice League, the Outsiders and Batman, Incorporated.
+
+A playboy billionaire by day, Bruce Wayne\'s double life affords him the comfort of a life without financial worry, a loyal butler-turned-guardian and the perfect base of operations in the ancient network of caves beneath his family\'s sprawling estate. By night, however, he sheds all pretense, dons his iconic scalloped cape and pointed cowl and takes to the shadowy streets, skies and rooftops of Gotham City.</item>
+        <item>A British special forces veteran turned butler, Alfred Pennyworth is the most loyal friend and confidant of both Bruce Wayne and Batman.
+
+Alfred Pennyworth is more than just Bruce Wayne\'s butler, or Batman\'s confidant. Alfred is a second father to Wayne, and serves as his conscience when the never-ending fight against evil wears on the Caped Crusader. Pennyworth keeps the Bat-Family together through his compassion and leadership. He has not only raised Bruce Wayne, but also the four young men who have worn the mask of Robin, the Boy Wonder: Dick Grayson, Jason Todd, Tim Drake and now, Damian Wayne.
+
+As a former British intelligence officer, field medic and trained Shakespearean actor, Alfred is uniquely suited to support the lives of masked crime fighters. He\'s quick with a disguise, a cover story, an alibi; and quicker still with a suture, a cast or an ice bath. He ensures that Wayne Manor—all of Wayne Manor, including the vast Batcave—is operating at peak performance while the Bat-Family patrols the city. Plus, he makes a mean cucumber sandwich, which may not be something he lists on his resume, but is certainly something everyone who sets foot on the manor\'s grounds will fondly remember.</item>
+        <item>If it\'s hard being a superhero, what is it like as a sidekick? The heroes get the glory, while you clean up the mess. You don\'t make the decisions and you don\'t give orders. So, what do you do if you\'re the Boy Wonder to one of the most recognizable super heroes in the universe and you\'re looking to break out on your own?
+
+Simple. You become Nightwing.
+
+When his circus acrobat family was brutally murdered, Dick Grayson was taken in by billionaire and bat-friendly super hero Bruce Wayne. Bruce shared his secret life as Batman with the young boy and eventually molded him into Robin—the Dark Knight\'s partner in Gotham. But as Dick grew older, playing second fiddle to the sternest hero in the Justice League began to wear on him, and eventually he struck out on his own, staying true to what he learned as Robin while coming into his own as a respected member of the superhero pantheon. His code, like his mentor\'s, is simple—if you\'re breaking the law on his turf, watch out. Anyone who doesn\'t can expect a short and most assuredly painful trip to Arkham.
+
+Yet, while he may share methods and motivation with Batman, Dick knows what being Batman can do. He doesn\'t want to become as dark, controlling and lonely as Bruce. But for all the good he\'s accomplished while avoiding it, one question is unavoidable—without going as far as Batman, can Nightwing be as effective as he ultimately wants to be?</item>
+        <item>Barbara Gordon redefined what it meant to be a self-made hero when she crafted her own costume and joined Batman\'s crusade right under her father\'s nose.
+
+The mean streets of Gotham City have a number of guardian angels watching over them. And one of the first—the young woman who turned the Dynamic Duo into the Batman family—was Batgirl. Barbara Gordon has always existed between two worlds: her life at home as the only daughter of Police Commissioner James Gordon and her life swinging from gargoyles as an associate of the Dark Knight and a founding member of the Birds of Prey.
+
+Though the two halves of her life don\'t always mesh, she stays true to the things she believes in. A genius-level hacker and information broker, and an expert martial artist, Babs has, like her namesake, proven to be a fierce survivor, and one of Gotham\'s most cherished protectors.</item>
+        <item>Former Robin Jason Todd parted ways with the Batman over their vastly different approaches to crimefighting, eventually founding his own team, the Outlaws.
+
+Death can be a strange thing for superheroes, especially when it doesn\'t quite stick. Just ask Jason Todd. As Batman\'s second Robin, Jason died at the hands of the Joker when he was just a child. But he returned to life with the help of a Lazarus Pit and the literal warping of time and reality.
+
+Unfortunately, Jason\'s resurrection was far from a pleasant one. Traumatized by his own violent end, Jason returned to the world unhinged and bent on revenge. Not only for himself, but for everyone caught in the crossfire of the endless catch-and-release cycle of Gotham City\'s super-villain underworld. He trained himself to be a killer and a mercenary, and he took on a new identity and code name—the Red Hood—in order to strike his own brand of fear in Gotham\'s criminals.
+
+Over time, Jason learned to deal with his rage in a way that didn\'t rack up a body count and he made peace with Batman and his fellow superheroes. But the bad blood between him and his adoptive family is ever ready to paint their city red once more.</item>
+        <item>Tim Drake possesses detective skills comparable to those of his mentor Batman, though his heart may be his greatest weapon.
+
+Growing up in Gotham City can be…complicated. Especially when you\'re a kid who\'s obsessed with Batman and Robin. For Tim Drake, learning everything about his favorite superheroes eventually led him down the path of becoming one himself, after he deduced the identities of Bruce Wayne and Dick Grayson.
+
+A self-made hero in every sense of the word, Tim took on the role of Robin after attempting to convince Dick Grayson to become Batman\'s sidekick again following the death of Jason Todd. In Tim\'s mind, Batman needed a Robin to stay true to himself and his mission. Although Tim didn\'t intend to take up the mantle for himself, he was more than happy to do what needed to be done.
+
+Analytical almost to a fault, Tim represents the "brains" of the Batman Family\'s roster of onetime Robins. As a Teen Titan and a founding member of Young Justice, Tim\'s excelled as both leader and mentor…though following in Batman\'s footsteps is anything but his dream.</item>
+        <item>Seeing eye-to-eye with your parents can be a challenge for any teen, but when your father happens to be a super-villain in Gotham City? That\'s a whole other level of awkward.
+
+Stephanie Brown\'s father, Arthur Brown, spent most of Stephanie\'s childhood in prison for crimes he committed as the Cluemaster—a second-rate version of the Riddler who could never quite make a name for himself. When he was finally released, claiming he\'d been “rehabilitated,” he jumped right back into the super-villain game with no regard for the safety or stability of his family. So, Steph decided to take things into her own hands and “spoil” her father\'s schemes. She crafted a superhero identity for herself, the Spoiler, and began working to sabotage the Cluemaster behind his back, leaking info about his plans to Batman, Robin and even the Gotham City Police, intent on putting her father back behind bars for good.
+
+But what started as a mission became her passion: Stephanie fell in love with the superhero lifestyle and the people she met. Growing stronger as Spoiler became Steph\'s number-one goal, and she was successful, ultimately becoming Batman\'s fourth Robin as well as one of the young women to operate under the name of Batgirl—a moniker she still uses today. Headstrong, outgoing and upbeat, Stephanie\'s quick to make friends and unwilling to take no for an answer.</item>
+        <item>Trained from birth as the ultimate killing machine, Cassandra Cain found a new life as the fourth Batgirl and, eventually, Orphan, a cherished part of the Batman family.
+
+No one in the Batman Family had an easy childhood, but Cassandra Cain may have had the worst. Raised from infancy under the tyrannical and abusive thumb of her father, the world-class assassin David Cain, Cassandra was taught violence before she was taught anything else—even how to speak.
+
+Cassandra was completely mute and unable to read—her ability to fight was her "first language." Her father considered language and literacy a waste of memory and brain space for someone training to be the perfect weapon.
+
+Yet, despite her father\'s abuse, Cassandra understood the difference between good and evil. As she grew older, she realized what her father had done to her and escaped him, fleeing to Gotham City where her life would be forever changed for the better. After proving herself to Batman and his allies, she was taken under Bruce Wayne\'s wing and taught to use her unique skills to be a hero.</item>
+        <item>The son of Bruce Wayne and Talia al Ghul, Damian Wayne was born to a life of adventure, but he struggles daily against the lesser angels of his nature.
+
+It\'s not often that something takes Batman by surprise. But that\'s exactly what happened when he learned that he had not only fathered a son with famed assassin Talia al Ghul (the daughter of Ra\'s al Ghul, one of his longtime adversaries), but she\'d been raising the child in secret within the League of Assassins. Kept away from Gotham City and his father until his adolescence, Damian Wayne exploded into the Dark Knight\'s world in a flurry of violence, tossing the entire Batman Family into disarray.
+
+Arrogant, cold and undeniably lethal, Damian found the transition from the unforgiving world of the League to Batman\'s staunch moral code to be a long and trying process, but a worthwhile one, as Damian ultimately proved himself worthy of becoming Robin at his father\'s side.
+
+Though he sometimes struggles with his past and the legacy of his mother and grandfather, Damian now wants nothing more than to be a hero to the people of Gotham, just like his father.</item>
+        <item>Duke Thomas is the daytime protector of Gotham City, and his metahuman light sensory powers make him unlike any of Batman\'s other crimefighting partners.
+
+While Batman and most of his allies operate at night, crime in Gotham City is quite different in the daytime, and so requires a different kind of crimefighter. Enter Duke Thomas—a.k.a. the Signal, the brightly colored agent of the Bat who hits the streets when the sun is out and Batman is asleep in his cave.
+
+Duke Thomas grew up in a Gotham City that idolized the Batman, and he met his hero at a young age. When Batman vanished for a time, Duke took up with a youth movement inspired to become Robins in his absence. This “We Are Robin” group was short-lived, but Duke made an impression on Batman once the hero returned to Gotham City. He made Duke his latest partner, but promised him a different destiny than previous Robins.
+
+Making good on his promise, Batman gave Duke a new costume and code name, and Duke became known as the Signal. Unlike most of Batman\'s Gotham City allies, Duke has discovered he is a metahuman, with light-sensory powers in his eyes. Now he\'s uniquely positioned to defend his city in a way that\'s utterly unlike any other member of the Batman Family.</item>
     </string-array>
 
 </resources>

@@ -1,11 +1,14 @@
 package com.example.csce546_project5
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), MyAdapter.OnItemClickListener {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -13,8 +16,7 @@ class MainActivity : AppCompatActivity() {
         val rvContacts = findViewById<RecyclerView>(R.id.characterBios)
         val contacts: List<Character> = createContacts()
 
-
-        rvContacts.adapter = ContactsAdapter(this, contacts)
+        rvContacts.adapter = MyAdapter(contacts, this)
         rvContacts.layoutManager = LinearLayoutManager(this)
     }
 
@@ -22,37 +24,26 @@ class MainActivity : AppCompatActivity() {
         val bios: MutableList<Character> = mutableListOf()
 
         //Pull information from resources
-        //val comicNames = resources.getStringArray(android.R.array.comic_names)
-        //val comicDesc = resources.getStringArray(android.R.array.comic_descriptions)
-        val charName = listOf(
-            "Bruce Wayne",
-            "Alfred Pennyworth",
-            "Dick Grayson",
-            "Barbara Gordon",
-            "Jason Todd",
-            "Tim Drake",
-            "Stephanie Brown",
-            "Cassandra Cain",
-            "Damian Wayne",
-            "Duke Thomas"
-        )
-        val charDescr = listOf(
-            "Batman",
-            "Trusted Butler",
-            "First Robin, later Nightwing",
-            "First Batgirl, later Oracle",
-            "Second Robin, later Red Hood",
-            "Third Robin, later Red Robin",
-            "Third Batgirl, forth Robin, later Spoiler",
-            "Second Batgirl, Later Black Bat",
-            "Fifth Robin",
-            "The Signal"
-        )
+        val comicNames = resources.getStringArray(R.array.comic_names)
+        val comicAlias = resources.getStringArray(R.array.comic_alias)
 
-
-        for (i in charName.indices) {
-            bios.add(Character(charName[i], charDescr[i], R.drawable.brucewayne))
+        for (i in comicNames.indices) {
+            bios.add(Character(comicNames[i], comicAlias[i], R.drawable.brucewayne))
         }
         return bios
+    }
+
+    override fun onItemClick(position: Int) {
+        val comicNames = resources.getStringArray(R.array.comic_names)
+        val comicAlias = resources.getStringArray(R.array.comic_alias)
+        val comicDesc = resources.getStringArray(R.array.comic_descriptions)
+
+        Toast.makeText(this, "Position $position was clicked.", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this@MainActivity, Details::class.java)
+        intent.putExtra("NAME", comicNames[position])
+        intent.putExtra("ALIAS", comicAlias[position])
+        intent.putExtra("DESC", comicDesc[position])
+        intent.putExtra("IMAGE", R.drawable.brucewayne)
+        startActivity(intent)
     }
 }
