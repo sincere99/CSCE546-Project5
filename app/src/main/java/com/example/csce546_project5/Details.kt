@@ -1,6 +1,7 @@
 package com.example.csce546_project5
 
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -27,5 +28,10 @@ class Details : AppCompatActivity() {
         tvAlias.text = alias
         tvDesc.text = description
         ivImage.setImageResource(image)
+    }
+
+    //Redirect to previous activity
+    fun clickBack(view: View?) {
+        finish()
     }
 }

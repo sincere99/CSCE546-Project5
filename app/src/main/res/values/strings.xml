@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CSCE546-Project5</string>
+    <string name="app_name">CSCE546 - Final Project</string>
 
     <string-array name="comic_names">
         <item>Bruce Wayne</item>
@@ -107,5 +107,7 @@ Duke Thomas grew up in a Gotham City that idolized the Batman, and he met his he
 
 Making good on his promise, Batman gave Duke a new costume and code name, and Duke became known as the Signal. Unlike most of Batman\'s Gotham City allies, Duke has discovered he is a metahuman, with light-sensory powers in his eyes. Now he\'s uniquely positioned to defend his city in a way that\'s utterly unlike any other member of the Batman Family.</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
